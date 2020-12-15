@@ -1,0 +1,21 @@
+class Solution:
+    def minKnightMoves(self, x: int, y: int) -> int:
+        visited = set([(0, 0)])
+        queue = deque([(0, 0)])
+        moves = [[1, 2], [2, 1], [-1, -2], [-2, -1], [1, -2], [-1, 2], [2, -1], [-2, 1]]
+        res = 0
+        level = 0
+        while queue:
+            length = len(queue)
+            for _ in range(length):
+                temp = queue.popleft()
+                if temp == (x, y):
+                    return level
+                for m in moves:             
+                    new_position = (temp[0] + m[0], temp[1] + m[1])
+                    if new_position not in visited:
+                        queue.append(new_position)
+                        visited.add(new_position)
+            level += 1
+        return 
+                  
