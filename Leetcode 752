@@ -3,7 +3,7 @@ class Solution:
         if '0000' in deadends:
             return -1 
         
-        visited = set('0000')
+        visited = set()
         queue = collections.deque(['0000'])
         deadends = set(deadends)
         steps = 0
