@@ -1,0 +1,89 @@
+# pythonic
+class Solution:
+    def shortestPalindrome(self, s: str) -> str:
+        if not s:
+            return s
+        for i in range(len(s)-1, -1, -1):
+            if s[:i+1]==s[:i+1][::-1]:
+                return s[i+1:][::-1]+s
+
+# Iteration
+class Solution:
+    def shortestPalindrome(self, s: str) -> str:
+        lenS, res = len(s), ""
+        
+        if lenS <= 1: 
+            return s
+        
+        maxLen, i = 1, 0
+        while i < lenS/2:
+         
+            j, k = i, i
+            while k < lenS - 1 and s[k] == s[k + 1]: 
+                k += 1
+            
+            i = k + 1
+            while k < lenS - 1 and j and s[k + 1] == s[j - 1]:  
+                k = k + 1 
+                j = j - 1
+            
+            if j == 0: 
+                maxLen = k + 1
+        
+        return s[maxLen:][::-1] + s
+
+
+# recursion
+class Solution:
+    def shortestPalindrome(self, s: str) -> str:
+    
+        if not s or len(s) == 1: return s
+        j = 0   
+        for i in reversed(range(len(s))):
+            if s[i] == s[j]:
+                j += 1        
+        return s[j:][::-1] + self.shortestPalindrome(s[:j-len(s)]) + s[j-len(s):]
+        
+# KMP
+class Solution:
+    def shortestPalindrome(self, s: str) -> str:
+        a = s + '*' + s[::-1]
+        m = self.getPattern(a)
+        return s[m:][::-1] + s
+        
+        
+    def getPattern(self, a: str) -> str:    
+        n = len(a)
+        pattern = [-1] * n
+        i = 0
+        j = 1
+        while j < n:
+            if a[i] == a[j]:
+                pattern[j] = i
+                i += 1
+                j += 1
+            elif i > 0:
+                i = pattern[i - 1] + 1
+            else:
+                j += 1
+        
+        return pattern[-1] + 1
+
+
+# Robin-Karp
+class Solution:
+    def shortestPalindrome(self, s: str) -> str:
+  
+        base=26
+        pow=1
+        pos=-1
+        mod=175391
+        h1=0
+        h2=0
+        for i in range(len(s)):
+            h1=(h1*base+ord(s[i])-ord('a'))%mod
+            h2=(h2+(ord(s[i])-ord('a'))*pow)%mod
+            if(h1==h2):
+                pos=i
+            pow=pow*base%mod
+        return s[pos+1:][::-1]+s
