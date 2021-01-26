@@ -18,17 +18,17 @@ class Solution:
         maxLen, i = 1, 0
         while i < n/2:
          
-            j, k = i, i
-            while k < n - 1 and s[k] == s[k + 1]: 
-                k += 1
+            l, r = i, i
+            while r < n - 1 and s[r] == s[r + 1]: 
+                r += 1
             
-            i = k + 1
-            while k < n - 1 and j and s[k + 1] == s[j - 1]:  
-                k = k + 1 
-                j = j - 1
+            i = r + 1
+            while r < n - 1 and l and s[r + 1] == s[l - 1]:  
+                r = r + 1 
+                l = l - 1
             
-            if j == 0: 
-                maxLen = k + 1
+            if l == 0: 
+                maxLen = r + 1
         
         return s[maxLen:][::-1] + s
 
