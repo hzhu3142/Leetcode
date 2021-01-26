@@ -73,17 +73,15 @@ class Solution:
 # Robin-Karp
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
-  
-        base=26
-        pow=1
-        pos=-1
-        mod=175391
-        h1=0
-        h2=0
+        maxLen = -1
+        base = 1
+        h1 = 0
+        h2 = 0
         for i in range(len(s)):
-            h1=(h1*base+ord(s[i])-ord('a'))%mod
-            h2=(h2+(ord(s[i])-ord('a'))*pow)%mod
-            if(h1==h2):
-                pos=i
-            pow=pow*base%mod
-        return s[pos+1:][::-1]+s
+            h1 = (h1 * 26 + ord(s[i]) - ord('a'))
+            h2 = (h2 + (ord(s[i]) - ord('a')) * base)
+            if h1 == h2:
+                maxLen = i + 1
+            base *= 26
+        
+        return s[maxLen:][::-1]+s
