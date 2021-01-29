@@ -1,3 +1,6 @@
+# Time O(logn)
+# Space O(n)
+
 class MedianFinder:
 
     def __init__(self):
