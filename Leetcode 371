@@ -12,17 +12,15 @@ class Solution:
         # print(a, b)
         return self.getSum(a^b, (a&b)<<1)
         
-    # Iteration    
-    class Solution:
+# Iteration    
+class Solution:
     def getSum(self, a: int, b: int) -> int:
         if a == -b:
             return 0
-        # if abs(a) > abs(b):
-        #     a, b = b, a
         if a < 0:
             return -self.getSum(-a, -b)
         while b:
-            c = a & b
-            a ^= b
-            b = c << 1
+            carry = a & b # to keey the bits need to carry forward
+            a ^= b # to keep the bits don't need to carry forward.
+            b = carry << 1
         return a
