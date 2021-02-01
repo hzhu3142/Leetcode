@@ -4,24 +4,18 @@ class Solution:
         mask = 0xffffffff
         if b == 0: 
             return a
-        elif b & mask == 0: 
-            if b > 0: # b > 0 means overflow
-                return (a & mask)
-            else:
-                return a 
-        # print(a, b)
+        if b & mask == 0: 
+            return (a & mask)
         return self.getSum(a^b, (a&b)<<1)
         
 # Iteration    
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-        if a == -b:
-            return 0
-        if abs(a) > abs(b):
-            a, b = b, a
-        if a < 0:
-            return -self.getSum(-a, -b)
+        bit_digits = math.floor(math.log2(max(abs(a), abs(b)))) + 2
+        mask = 2 ** (bit_digits + 1) - 1
         while b:
+            if b & mask == 0:
+                return (a & mask)                     
             c = a & b
             a ^= b
             b = c << 1
