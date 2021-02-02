@@ -1,14 +1,10 @@
 # Approach 1: Linear_time Slice Using Substring + HashSet
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
-        if len(s) < 10:
-            return []
-        
         h = defaultdict(int)
-        for i in range(10, len(s)+1):
-            substring = s[i-10: i]
-            h[substring] += 1
-            
+        for i in range(len(s)-9):
+            h[s[i:i+10]] += 1
+        
         return [i for i in h.keys() if h[i] > 1]
         
  # Approach 2: Hash rolling 
