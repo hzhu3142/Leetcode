@@ -27,14 +27,14 @@ class Solution:
         
         return res
         
-   # Approach 3: bit manipulation
-   class Solution:
+# Approach 3: bit manipulation
+class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         if len(s) < 10:
             return []
         
         digits = {"A": 0, "C": 1, "G": 2, "T": 3}
-        mask = 2 ** (2 * 10) - 1
+        mask = 0xfffff
         pattern = 0
         seen = set()
         res = set()
@@ -48,6 +48,5 @@ class Solution:
                     seen.add(pattern)
                     
         return res
-   
         
         
