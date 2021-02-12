@@ -5,7 +5,7 @@ class NestedIterator:
         self.stack = nestedList[::-1]
     
     def next(self) -> int:
-        return self.stack.pop()
+        return self.stack.pop().getInteger()
     
     def hasNext(self) -> bool:
         while self.stack and not self.stack[-1].isInteger():
