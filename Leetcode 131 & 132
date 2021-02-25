@@ -16,26 +16,25 @@ class Solution:
             if s[:i] == s[:i][::-1]:
                 self.dfs(s[i:], path+[s[:i]], res)
 
-#Approach2: DP
+#Approach 2	
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        n = len(s)
-        
-        def dfs(position):
-            if position == 0:
-                return [[]]
-
-            for i in range(0, position):
-                if s[position:i+1] == s[position:i+1][::-1]:
-                    if i + 1 == len(s):
-                        return dfs(position) + [s[position]]
-                    else:
-                        for rest in self.dfs(s[i+1:], memo):
-                            memo[s].append([s[:i+1]] + rest)
-
+        return self.dfs(s, {})
+    
+    def dfs(self, s, memo):
+        if s in memo:
             return memo[s]
         
-        return dfs(n-1)
+        memo[s] = []
+        for i in range(len(s)):
+            if s[:i+1] == s[:i+1][::-1]:
+                if i + 1 == len(s):
+                    memo[s].append([s])
+                else:
+                    for rest in self.dfs(s[i+1:], memo):
+                        memo[s].append([s[:i+1]] + rest)
+        
+        return memo[s]
         
 # 132
 
