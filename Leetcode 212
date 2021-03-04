@@ -1,16 +1,22 @@
+class Trie:
+    def __init__(self):
+        self.root = {}
+    
+    def insert(self, word):
+        curr = self.root
+        for char in word:
+            if char not in curr:
+                curr[char] = {}
+            curr = curr[char]
+        curr['#'] = word
+
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
-        trie = {}
+        trie = Trie()
         for word in words:
-            curr = trie
-            for char in word:
-                if char not in curr:
-                    curr[char] = {}
-                curr = curr[char]
-            curr['#'] = word
+            trie.insert(word)
             
         matched = []
-        
         def backtrack(row, col, curTrie):
             letter = board[row][col]
             curr = curTrie[letter]
@@ -28,7 +34,7 @@ class Solution:
                 
         for i in range(len(board)):
             for j in range(len(board[0])):
-                if board[i][j] in trie:
-                    backtrack(i, j, trie)
+                if board[i][j] in trie.root:
+                    backtrack(i, j, trie.root)
                     
         return matched
