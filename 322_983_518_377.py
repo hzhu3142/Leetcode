@@ -30,7 +30,17 @@ class Solution:
             return min(res)
 
         return mincost(1)
+#983
+class Solution:
 
+    def mincostTickets(self, days: List[int], costs: List[int]) -> int:
+        dp=[0 for i in range(days[-1]+1)]
+        for i in range(days[-1]+1):
+            if i not in days:
+                dp[i]=dp[i-1]
+            else:
+                dp[i]=min(dp[max(0,i-1)]+costs[0], dp[max(0,i-7)]+costs[1], dp[max(0,i-30)]+costs[2])
+        return dp[-1]
 # 983
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
@@ -50,6 +60,20 @@ class Solution:
 
         return mincost(0)
 
+#983
+class Solution:
+    def mincostTickets(self, days: List[int], costs: List[int]) -> int:
+        def find(d):
+            return max(bisect.bisect(days, d), 0)
+
+        n = len(days)
+        dp = [0] * (n + 1)
+        for i, day in enumerate(days):
+            dp[i + 1] = min(dp[find(day - 1)] + costs[0], dp[find(day - 7)] + costs[1], dp[find(day - 30)] + costs[2])
+
+        return dp[-1]
+
+
 #518
 class Solution:
 
@@ -59,4 +83,16 @@ class Solution:
         for coin in coins:
             for i in range(coin, amount+1):
                 dp[i] += dp[i-coin]
+        return dp[-1]
+
+#377
+class Solution:
+    def combinationSum4(self, nums: List[int], target: int) -> int:
+        dp = [0] * (target + 1)
+        dp[0] = 1
+
+        for i in range(target + 1):
+            for n in nums:
+                if i - n >= 0:
+                    dp[i] += dp[i - n]
         return dp[-1]
