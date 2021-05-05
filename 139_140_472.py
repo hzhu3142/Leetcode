@@ -104,8 +104,8 @@ class Solution:
         
         return res
 	
-	#Approach 2 DFS + recursion
-	class Solution:
+#Approach 2 DFS + recursion
+class Solution:
 	
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
         d = set(words)
