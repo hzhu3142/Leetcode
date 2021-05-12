@@ -1,5 +1,5 @@
 #343
-#Approach 1; Dp time O(n), space O(n)
+#Approach 1; Dp time O(n^2), space O(n)
 class Solution:
     def integerBreak(self, n: int) -> int:     
         dp = [1] * (n + 1)
