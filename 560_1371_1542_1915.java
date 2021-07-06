@@ -68,6 +68,24 @@ class Solution {
     }
 }
 
+//1542
+class Solution {
+    public int longestAwesome(String s) {
+        Map<Integer, Integer> seen = new HashMap<>();
+        seen.put(0, -1);
+        int res = 0, state = 0;
+        for (int i = 0; i < s.length(); i++) {
+            state ^= 1 << (s.charAt(i) - '0');
+            if (seen.containsKey(state)) res = Math.max(res, i - seen.get(state));
+            else seen.put(state, i);
+            for (int j = 0; j < 10; j++) {
+                if (seen.containsKey(state ^ (1<<j))) res = Math.max(res, i - seen.get(state ^ (1<<j)));
+            }   
+        }
+        return res;
+    }
+}
+
 
 // 1915
 class Solution {
