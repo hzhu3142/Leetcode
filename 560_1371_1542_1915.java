@@ -15,6 +15,26 @@ class Solution {
     }
 }
 
+//1371
+class Solution {
+    public int findTheLongestSubstring(String s) {
+        int state = 0, res = 0;
+        Map<Integer, Integer> seen = new HashMap<>();
+        seen.put(0, -1);
+        Map<Character, Integer> vowels = new HashMap<>();
+        vowels.put('a', 1);
+        vowels.put('e', 2);
+        vowels.put('i', 4);
+        vowels.put('o', 8);
+        vowels.put('u', 16);
+        for (int i=0; i<s.length(); i++) {
+            if (vowels.containsKey(s.charAt(i))) state ^= vowels.get(s.charAt(i));
+            if (seen.containsKey(state)) res = Math.max(res, i - seen.get(state));
+            else seen.put(state, i);
+        }
+        return res; 
+    }
+}
 
 // 1371
 class Solution {
