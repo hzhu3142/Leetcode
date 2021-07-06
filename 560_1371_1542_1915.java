@@ -90,21 +90,27 @@ class Solution {
 // 1915
 class Solution {
     public long wonderfulSubstrings(String word) {
-        long res = 0, count[]  = new long[1024];
-        int cur = 0;
+        int state = 0;
+        long res = 0, count[] = new long [1024];
         count[0] = 1L;
-        for (int i = 0; i < word.length(); ++i) {
-            cur ^= 1 << (word.charAt(i) - 'a');
-            res += count[cur]++;
-            for (int j = 0; j < 10; ++j)
-                res += count[cur ^ (1 << j)];
+        for (int i = 0; i< word.length(); i++) {
+            state ^= 1 << (word.charAt(i) - 'a');
+            res += count[state]++;
+            for (int j = 0; j < 10; ++j) 
+                res += count[state ^ (1 << j)];
+            
         }
         return res;
     }
 }
 
+/* 
 
+There are two ways to do this type of issues:
+1. long[] count = new long [1024]
+2. Map<Integer, Integer> count = new HashMap<>();
 
-
+The first type is much faster.
+*/
 
 
