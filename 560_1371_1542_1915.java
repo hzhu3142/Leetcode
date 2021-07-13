@@ -110,7 +110,6 @@ There are two ways to do this type of issues:
 1. long[] count = new long [1024]
 2. Map<Integer, Integer> count = new HashMap<>();
 
-
 The first type is much faster.
 */
 
