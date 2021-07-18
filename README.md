@@ -12,9 +12,14 @@
 
 | Categories | Leetcode issues#                       | Descriptions                                                        | Code                                                         | Comments                                   |
 | :------ | :------------------------- | :----------------------------------------------------------------- | :-------------------------------------------------------------------- | :--------------------------------------: |
-|  Binary Search | <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" style="color:orange">34</a> | Find First and Last Position of Element in Sorted Array | <a href="https://leo-books.herokuapp.com/">Demo</a> | :---- |
-| BFS/DFS  | <a href="https://leetcode.com/problems/open-the-lock/" style="color:orange">752</a> | Open the Lock | <a href="#">Code</a> | :----  |
-| Union Find	| <a href="https://leetcode.com/problems/redundant-connection/">684</a>   | Redundant Connection | <a href="#">Code</a>  | <a href="#">BFS, DFS, Union Find, Graph</a> |
-| Dijkstra | <a href="https://leetcode.com/problems/network-delay-time/">743</a>   | Network Delay Time | <a href="#">Code</a> | :----  |
-| Topological | <a href="https://leetcode.com/problems/course-schedule/" style="color:orange">207/210</a>   |  Course Schedule | <a href="#">Code</a> | :---- |
-| DP      | <a href="https://leetcode.com/problems/house-robber/" style="color:orange">198/213/337/740/309</a>   | House Robber | <a href="#">code</a> | : ----  |
+|  Binary Search | <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/">34</a> | <p style="color:orange">Find First and Last Position of Element in Sorted Array</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/34.py">Python</a> | :----: |
+| ------ | ------------------------- | ----------------------------------------------------------------- | :-------------------------------------------------------------------- | :--------------------------------------|
+| Union Find	| <a href="https://leetcode.com/problems/redundant-connection/">684</a>   | Redundant Connection | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/684.py">Python</a>  
+|   |  |  |  | |
+| <a href="#">BFS, DFS, Union Find, Graph</a> |
+|   |  |  |  | |
+| Dijkstra | <a href="https://leetcode.com/problems/network-delay-time/">743</a>   | <p style="color:orange">Network Delay Time</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/743.java">Java</a> | :----:  |
+|   |  |  |  | |
+| Topological | <a href="https://leetcode.com/problems/course-schedule/" style="color:orange">207/210</a>   |  <p style="color:orange">Course Schedule</p> | <a href="#">Code</a> | :----: |
+|   |  |  |  | |
+| DP      | <a href="https://leetcode.com/problems/house-robber/" style="color:orange">198/213/337/740/309</a>   | <p style="color:orange">House RobberI/II/III</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/198_213_337_740_309.py">Python</a> | : ----:  |
