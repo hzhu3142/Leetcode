@@ -13,10 +13,10 @@
 
 | Categories | Leetcode issues#                       | Descriptions                                   | Code                                          | Comments                                   |
 | :------ | :------------------------- | :----------------------------------------------------------------- | :-------------------------------------------------------------------- | :--------------------------------------: |
-| BFS/DFS      | :orange_heart:  <p>752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
-|   | :orange_heart: <p>1197</p>| <p>Minimum Knight moves</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
-|   | :orange_heart: <p>17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> |   |
-|   | :orange_heart: <p>51</p>| <p>N-Queens I<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/51.py">Python</a> |   |
+| BFS/DFS      | :orange_heart:<p> 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
+|   | :orange_heart:<p> 1197</p>| <p>Minimum Knight moves</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
+|   | :orange_heart:<p> 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> |   |
+|   | :orange_heart:<p> 51</p>| <p>N-Queens I<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/51.py">Python</a> |   |
 |   | :orange_heart: <p>200</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200.py">Python</a> |463/305/ 1254/695/ 694/827/ 934/130|
 |   | :orange_heart: <p>99</p>| <p>Recover Binary Search Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/99.py">Python</a> |   |
 |   |  |  |  | |
@@ -32,5 +32,5 @@
 |   |  |  |  | |
 | Topological | :orange_heart: <p>207/210</p> |  <p>Course Schedule I/II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/207_210.py">Python</a> | |
 |   |  |  |  | |
-| DP      | :orange_heart: <p>198/213/337/</p> <p>740/309</p> | <p>House RobberI/II/III</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/198_213_337_740_309.py">Python</a> |   |
+| DP      | :orange_heart: <p>198/213/</p> <p>337/740/309</p> | <p>House RobberI/II/III</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/198_213_337_740_309.py">Python</a> |   |
 |   |  |  |  | |
