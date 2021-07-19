@@ -3,7 +3,7 @@
 <div align="left">
   <p>Problems resources:</p>
   <a href="https://leetcode.com/problemset/all/">
-    <img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width=200 height=500>
+    <img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width="50" height="200">
   </a>
 </div>
 
