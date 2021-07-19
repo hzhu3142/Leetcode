@@ -13,7 +13,7 @@
 
 | Categories | Leetcode issues#                       | Descriptions                                   | Code                                          | Comments                                   |
 | :------ | :------------------------- | :----------------------------------------------------------------- | :-------------------------------------------------------------------- | :--------------------------------------: |
-| BFS/DFS      | :orange_heart:<p> 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
+| BFS/DFS      | <p>:orange_heart: 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
 |   | :orange_heart:<p> 1197</p>| <p>Minimum Knight moves</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
 |   | :orange_heart:<p> 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> |   |
 |   | :orange_heart:<p> 51</p>| <p>N-Queens I<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/51.py">Python</a> |   |
