@@ -56,4 +56,5 @@
 | | <p>:heart: 329/631/  1719/1632/1857</p> |  <p> Topological </p> | Pending Code | |
 |   |  |  |  | |
 | DP      |  <p>:orange_heart: 198/213/</p> <p>337/740/309</p> | <p>House RobberI/II/III</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/198_213_337_740_309.py">Python</a> |   |
+|     |  <p>:orange_heart: 87</p> | <p>Scramble String</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/87.java">Java</a> |   |
 |   |  |  |  | |
