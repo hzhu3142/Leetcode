@@ -24,7 +24,7 @@
 |   | <p>:heart: 37</p>| <p>Sudoku Solver<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/37.py">Python</a> |   |
 |   |  |  |  | |
 | Tree | <p>:orange_heart: 543/687 :heart: 124</p> | <p>Tree Path</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/543_687_124.py">Python</a> |   |
-|   | <p>:heart: 297/428 :orange_heart: 449</p> | <p >Serialize and Deserialize Binary Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/297_428_449.py">Python</a> | BST/DFS |
+|   | <p>:heart: 297/428 :orange_heart: 449</p> | <p >Serialize and Deserialize Binary Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/297_428_449.py">Python</a> |  |
 |   |  |  |  | |
 | Trie | <p>:heart: 212</p> | <p>Word Search II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/212.py">Python</a> |   |
 |   | <p>:heart: 642</p> | <p>Design Search Autocomplete System</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/642.py">Python</a> |  |
@@ -36,6 +36,9 @@
 |   | <p>:orange_heart: 718</p>| <p>Maximum Length of Repeated Subarray</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/718.py">Python</a> | |
 |   |  |  |  | |
 | Union Find	| <p>:orange_heart: 648</p> | Redundant Connection | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/684.py">Python</a>| BFS, DFS, Union Find, Graph |
+|   |  |  |  | |
+| Permutations	| <p>:orange_heart: 46/47/31</p> | Permitation I/II | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/46_47_31.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/46_47_31.py">Python</a> |  |
+| 	| <p>:heart: 60/903/1220</p> | Find permutation | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/60_903_1220.py">Python</a>|  |
 |   |  |  |  | |
 | HashMap	| <p>:orange_heart: 560/1371/1915</p> <p>:heart: 1542</p> | Subarray | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/560_1371_1542_1915.java">Java</a>| PreFix + hashMap + state compression |
 |   | <p>:heart: 1932</p>| <p>Merge BSTs to Create Single BST</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1932.java">Java</a> |   |
@@ -50,7 +53,7 @@
 |   |  |  |  | |
 | Topological | <p>:orange_heart: 207/210</p> |  <p>Course Schedule I/II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/207_210.py">Python</a> | |
 | | <p>:heart: 269/1203</p> |  <p>Alien Dictionary</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/269_1203.py">Python</a> | |
-| | <p>:heart: 329/631/1719/1632/1857</p> |  <p> Topological </p> | Pending Code | |
+| | <p>:heart: 329/631/  1719/1632/1857</p> |  <p> Topological </p> | Pending Code | |
 |   |  |  |  | |
 | DP      |  <p>:orange_heart: 198/213/</p> <p>337/740/309</p> | <p>House RobberI/II/III</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/198_213_337_740_309.py">Python</a> |   |
 |   |  |  |  | |
