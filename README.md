@@ -1,7 +1,7 @@
 ### Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 <a href="https://leetcode.com/problemset/all/">
-  <img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg">
+  <img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width=50% height=50%>
 </a>
 
 
@@ -27,6 +27,7 @@
 |   |  |  |  | |
 |  Binary Search | <p>:orange_heart: 34</p> | <p style="color:orange">Find First and Last Position of Element in Sorted Array</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/34.py">Python</a> | |
 |   | <p>:orange_heart: 1038</p> | <p >Binary Search Tree to Greater Sum Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1038.py">Python</a> | BST/DFS |
+|   | <p>:heart: 1932</p> | <p >Merge BSTs to Create Single BST</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1932.java">Java</a> |  |
 |   | <p>:heart: 1373</p>  | <p>Find First and Last Position of Element in Sorted Array</p> | <a href="#"></a>  | |
 |   | <p>:orange_heart: 300 :heart: 354</p> | <p>Longest Increasing Subsequence/ Russian doll envelop</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/300_354.py">Python</a> | |
 |   | <p>:orange_heart: 718</p>| <p>Maximum Length of Repeated Subarray</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/718.py">Python</a> | |
