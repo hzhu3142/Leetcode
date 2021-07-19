@@ -13,9 +13,9 @@
 
 | Categories | Leetcode issues#                       | Descriptions                                   | Code                                          | Comments                                   |
 | :------ | :------------------------- | :-------------------------------------------------------------| :-------------------------------------------------------------------- | :--------------------------------------: |
-| BFS/DFS      | <p>:orange_heart: 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
-|   | <p>:orange_heart: 1197</p>| <p>Minimum Knight moves</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
-|   | <p>:orange_heart: 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> |   |
+| BFS/DFS      | <p>:orange_heart: 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
+|   | <p>:orange_heart: 1197</p>| <p>Minimum Knight moves</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
+|   | <p>:orange_heart: 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> | (java: HashMap, Array, ArrayList)  |
 |   | <p>:orange_heart: 200</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200.py">Python</a> |463/305/ 1254/695/ 694/827/ 934/130|
 |   | <p>:orange_heart: 99</p>| <p>Recover Binary Search Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/99.py">Python</a> |   |
 |   | <p>:heart: 126/127</p>| <p>Word Ladder I/II<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/126_127.py">Python</a> |   |
