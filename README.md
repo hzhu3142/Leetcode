@@ -4,7 +4,7 @@
 <div align="left">
   <p>Problems resources:</p>
   <a href="https://leetcode.com/problemset/all/">
-    <img alt="Leetcode" src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width="250px">
+    <img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width=50% height=50%>
   </a>
 </div>
 
