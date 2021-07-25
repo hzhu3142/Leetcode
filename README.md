@@ -18,9 +18,15 @@
 |   |  |  |  | |
 | Backtracking  | <p>:heart: 51</p>| <p>N-Queens I<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/51.py">Python</a> |   |
 |   | <p>:heart: 37</p>| <p>Sudoku Solver<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/37.py">Python</a> |   |
+|   | <p>:heart: 301</p>| <p>Remove Invalid Parentheses<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/301.py">Python</a> |   |
+|   | <p>:heart: 465</p>| <p>Optimal Account Balancing<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/465.py">Python</a> |   |
+|   | <p>:heart: 301</p>| <p>Remove Invalid Parentheses<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/301.py">Python</a> |   |
+|   | <p>:heart: 465</p>| <p>Optimal Account Balancing<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/465.py">Python</a> |   |
+|   | <p>:heart: 679</p>| <p>24 Game<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/479.py">Python</a> |   |
 |   |  |  |  | |
 | Tree | <p>:orange_heart: 543/687 :heart: 124</p> | <p>Tree Path</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/543_687_124.py">Python</a> |   |
 |   | <p>:heart: 297/428 :orange_heart: 449</p> | <p >Serialize and Deserialize Binary Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/297_428_449.py">Python</a> |  |
+| | <p>:orange_heart: 652/609</p> | <p>Duplicate files</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/652_609.py">Python</a> | 1948  |
 |   |  |  |  | |
 | Trie | <p>:heart: 212</p> | <p>Word Search II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/212.py">Python</a> |   |
 |   | <p>:heart: 642</p> | <p>Design Search Autocomplete System</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/642.py">Python</a> |  |
