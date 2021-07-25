@@ -12,7 +12,7 @@
 | BFS/DFS      | <p>:orange_heart: 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
 |   | <p>:orange_heart: 1197</p>| <p>Minimum Knight moves</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
 |   | <p>:orange_heart: 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> | (java: HashMap, Array, ArrayList)  |
-|   | <p>:orange_heart: 200</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200.py">Python</a> |463/305/ 1254/695/ 694/827/ 934/130|
+|   | <p>:orange_heart: 200 :heart: 305</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.py">Python</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.java">Java</a>| <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/436_1254_695_694.java">463/1254/695/694</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/130_934_827.java">130/934/827</a> |
 |   | <p>:orange_heart: 99</p>| <p>Recover Binary Search Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/99.py">Python</a> |   |
 |   | <p>:heart: 126/127</p>| <p>Word Ladder I/II<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/126_127.py">Python</a> |   |
 |   |  |  |  | |
@@ -47,6 +47,8 @@
 |   |  |  |  | |
 | Bit Manipulation | <p>:orange_heart: 137</p> | <p>Single Element II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/137.python">Python</a> | 540/136/387  |
 |   | <p>:orange_heart: 371/43/ 50/29</p> | <p>add, multiple, division, pow</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/371_43_50_29.py">Python</a> |  |
+|   |  |  |  | |
+| Sweep Line | <p>:heart: 218/391/850</p> | <p>Skyline/Rectangle</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/218_391_850.python">Python</a> | 1229/1228/1272/1943  |
 |   |  |  |  | |
 | Topological | <p>:orange_heart: 207/210</p> |  <p>Course Schedule I/II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/207_210.py">Python</a> | |
 | | <p>:heart: 269/1203</p> |  <p>Alien Dictionary</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/269_1203.py">Python</a> | |
