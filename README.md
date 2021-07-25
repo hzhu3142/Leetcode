@@ -12,7 +12,7 @@
 | BFS/DFS      | <p>:orange_heart: 752</p>| <span style="color:orange">Open the lock</span> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/752.py">Python</a> |   |
 |   | <p>:orange_heart: 1197</p>| <p>Minimum Knight moves</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
 |   | <p>:orange_heart: 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> | (java: HashMap, Array, ArrayList)  |
-|   | <p>:orange_heart: 200 :heart: 305</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.py">Python</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.java">Java</a>| <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/436_1254_695_694.java">463/1254/695/694</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/130_934_827.java">130/934/827</a> |
+|   | <p>:orange_heart: 200 :heart: 305</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.py">Python</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.java">Java</a>| <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/463_1254_695_694.java">463/1254/695/694</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/130_934_827.java">130/934/827</a> |
 |   | <p>:orange_heart: 99</p>| <p>Recover Binary Search Tree</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/99.py">Python</a> |   |
 |   | <p>:heart: 126/127</p>| <p>Word Ladder I/II<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/126_127.py">Python</a> |   |
 |   |  |  |  | |
@@ -34,7 +34,7 @@
 |   |  |  |  | |
 | Union Find	| <p>:orange_heart: 648</p> | Redundant Connection | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/684.py">Python</a>| BFS, DFS, Union Find, Graph |
 |   |  |  |  | |
-| Permutations	| <p>:orange_heart: 46/47/31</p> | Permitation I/II | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/46_47_31.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/46_47_31.py">Python</a> |  |
+| Permutations	| <p>:orange_heart: 46/47/31</p> | Permutation I/II | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/46_47_31.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/46_47_31.py">Python</a> | 1947 |
 | 	| <p>:heart: 60/903/1220</p> | Find permutation | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/60_903_1220.py">Python</a>|  |
 |   |  |  |  | |
 | HashMap	| <p>:orange_heart: 560/1371/1915</p> <p>:heart: 1542</p> | Subarray | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/560_1371_1542_1915.java">Java</a>| PreFix + hashMap + state compression |
