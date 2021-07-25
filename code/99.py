@@ -1,3 +1,4 @@
+# Method 1 recursion
 class Solution:
     def recoverTree(self, root: TreeNode) -> None:
         """
@@ -16,33 +17,38 @@ class Solution:
                     return
             pre = root
             inorder(root.right)
-            
+
         x = y = pre = None
         inorder(root)
         x.val, y.val = y.val, x.val
-        
-        
-        Method 2(stack)
-        class Solution:
+
+
+# Method 2(stack)
+class Solution:
     def recoverTree(self, root: TreeNode) -> None:
         """
         Do not return anything, modify root in-place instead.
         """
-        pre = x = y = None
-        stack = []
         cur = root
+        prev = None
+        swap1 = swap2 = None
+        stack = []
         while cur or stack:
-            if cur:
+            while cur:
                 stack.append(cur)
                 cur = cur.left
-            else:
-                tempt = stack.pop()
-                if pre and pre.val > tempt.val:
-                    y = tempt
-                    if not x:
-                        x = pre
-                    else:
-                        break
-                pre = tempt
-                cur = tempt.right
-        x.val, y.val = y.val, x.val
+
+            cur = stack.pop()
+            if prev and prev.val > cur.val:
+                if not swap1:
+                    swap1 = prev
+                    swap2 = cur
+                else:
+                    swap2 = cur
+                    break
+
+            prev = cur
+            cur = cur.right
+
+        swap1.val, swap2.val = swap2.val, swap1.val
+        return root
