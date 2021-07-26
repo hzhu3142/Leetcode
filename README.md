@@ -56,6 +56,10 @@
 |   |  |  |  | |
 | Sweep Line | <p>:heart: 218/391/850</p> | <p>Skyline/Rectangle</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/218_391_850.python">Python</a> | 1229/1228/1272/1943  |
 |   |  |  |  | |
+| Intervals | <p>:orange_heart: 435/452/646/1288 :heart:757</p> | <p>Non-overlapping Intervals</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/435_452_646_1288_757.python">Python</a> |  |
+|  | <p>:orange_heart: 1024 :heart: 45</p> | <p>Video Stitch</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1024_45.python">Python</a> |  |
+|  | <p>:heart: 1326/1235/1751</p> | <p>intervals + dp</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1326_1235_1751.python">Python</a> |  |
+|   |  |  |  | |
 | Topological | <p>:orange_heart: 207/210</p> |  <p>Course Schedule I/II</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/207_210.py">Python</a> | |
 | | <p>:heart: 269/1203</p> |  <p>Alien Dictionary</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/269_1203.py">Python</a> | |
 | | <p>:heart: 329/631/  1719/1632/1857</p> |  <p> Topological </p> | Pending Code | |

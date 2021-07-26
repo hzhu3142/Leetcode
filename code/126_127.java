@@ -141,15 +141,11 @@ class Solution {
                 char old_ch = chs[i];
                 chs[i] = ch;
                 if (dict.contains(String.valueOf(chs))) {
-
-
                     String newWord = String.valueOf(chs);
-
                     res.add(String.valueOf(chs));
                 }
                 chs[i] = old_ch;
             }
-
         }
         return res;
     }
