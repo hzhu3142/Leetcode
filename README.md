@@ -13,7 +13,7 @@
 |   | <p>:orange_heart: 1197</p>| <p>Minimum Knight moves</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/1197.py">Python</a> |   |
 |   | <p>:orange_heart: 17</p>| <p>Letter combinations of a phone number</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.java">Java</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/17.py">Python</a> | (java: HashMap, Array, ArrayList)  |
 |   | <p>:orange_heart: 200 :heart: 305</p>| <p>Number of Islands</p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.py">Python</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/200_305.java">Java</a>| <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/463_1254_695_694.java">463/1254/695/694</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/130_934_827.java">130/934/827</a> |
-|   | <p>:heart: 126/127</p>| <p>Word Ladder I/II<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/126_127.py">Python</a> |   |
+|   | <p>:heart: 126/127</p>| <p>Word Ladder I/II<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/126_127.py">Python</a> <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/126_127.java">Java</a> |   |
 |   |  |  |  | |
 | Backtracking  | <p>:heart: 51</p>| <p>N-Queens I<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/51.py">Python</a> |   |
 |   | <p>:heart: 37</p>| <p>Sudoku Solver<p> | <a href="https://github.com/hzhu3142/Leetcode/blob/main/code/37.py">Python</a> |   |

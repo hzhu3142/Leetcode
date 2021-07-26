@@ -49,6 +49,7 @@ class Solution:
                     queue.append((nextword, step + 1))
         if length == inf:
             return []
+
         def backtracking(path, curword):
             if worddis[curword] < len(path):
                 return
@@ -59,6 +60,40 @@ class Solution:
                 path.append(nextword)
                 backtracking(path, nextword)
                 path.pop()
+
         backtracking([beginWord], beginWord)
+
+        return res
+
+# the method 2 below is much lower than the method 1;
+class Solution:
+    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+        wordList = set(wordList)
+        if endWord not in wordList:
+            return []
+
+        path_q = deque([[beginWord]])
+        visited = set([beginWord])
+        visit_pending = set()
+        res = []
+        level = 1
+        length = len(beginWord)
+        while path_q:
+            curr_path = path_q.popleft()
+            if len(curr_path) > level:
+                level += 1
+                visited.update(visit_pending)
+                visit_pending = set()
+            word = curr_path[-1]
+            for i in range(length):
+                for letter in 'abcdefghijklmnopqrstuvwxyz':
+                    new_word = word[:i] + letter + word[i+1:]
+                    if new_word in wordList and new_word not in visited:
+                        new_path = curr_path + [new_word]
+                        visit_pending.add(new_word)
+                        if new_word == endWord:
+                            res.append(new_path)
+                        else:
+                            path_q.append(new_path)
 
         return res
